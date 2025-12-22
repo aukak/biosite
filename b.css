@@ -115,6 +115,7 @@ left:50%;
 transform:translate(-50%,-50%);
 width:220px;
 height:220px;
+
 background:url('https://cdn.discordapp.com/avatar-decoration-presets/a_c86b11a49bb8057ce9c974a6f7ad658a.png?size=240&passthrough=true') center/contain no-repeat;
 pointer-events:none;
 z-index:2;

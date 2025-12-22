@@ -35,6 +35,7 @@ bgAudio.play().catch(()=>{});
 playPause.innerHTML='<span class="material-symbols-rounded">pause</span>';
 isPlaying=true;
 }
+
 });
 function updateClock(){
 const now=new Date();
