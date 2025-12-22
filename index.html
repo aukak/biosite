@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <title>bog</title>
-<link rel="stylesheet" href="b.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link rel="icon" href="assets/bog.webp" type="image/webp">
+<link rel="stylesheet" href="b.css">
 </head>
 <body>
 <nav class="navbar" id="navbar">
@@ -20,7 +19,7 @@
 <section id="home" class="page active">
 <div class="hero">
 <div class="pfp-wrapper">
-<img src="assets/bog.webp" alt="pfp" class="pfp">
+<img src="assets/bog.webp" alt="pfp" class="pfp" onerror="">
 </div>
 <h1 class="username">bog</h1>
 <p class="tagline" id="clock"></p>
@@ -51,30 +50,34 @@
 <span class="contact-label">email</span>
 <span class="contact-value">bog@truffled.lol</span>
 </a>
-<a href="https://twitter.com/@boogibuck" target="_blank" class="contact-card">
+<a href="https://twitter.com/@boogibuck" target="_blank" rel="noopener" class="contact-card">
 <span class="contact-label">twitter</span>
 <span class="contact-value">@boogibuck</span>
 </a>
-<a href="https://github.com/aukak" target="_blank" class="contact-card">
+<a href="https://github.com/aukak" target="_blank" rel="noopener" class="contact-card">
 <span class="contact-label">github</span>
 <span class="contact-value">aukak</span>
 </a>
-<a href="https://discord.gg/truffled" target="_blank" class="contact-card">
+<a href="https://discord.gg/truffled" target="_blank" rel="noopener" class="contact-card">
 <span class="contact-label">discord</span>
 <span class="contact-value">aukak.com</span>
 </a>
 </div>
 </div>
 </section>
-
 </main>
-<audio id="bgAudio" loop>
-<source src="assets/b.mp3" type="audio/mpeg">
+<audio id="bgAudio" loop preload="auto">
+<source src="/assets/b.mp3" type="audio/mpeg">
 </audio>
 <div class="volume">
 <input id="volume" type="range" min="0" max="1" step="0.01" value="0.5">
 <button id="playPause"><span class="material-symbols-rounded">play_arrow</span></button>
 </div>
 <script src="bgp.js"></script>
+<style>
+body {
+overflow: hidden;
+}
+</style>
 </body>
 </html>
