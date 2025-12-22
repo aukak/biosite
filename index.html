@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>bog</title>
+<link rel="stylesheet" href="b.css">
+<link rel="icon" href="assets/bog.webp" type="image/webp">
+</head>
+<body>
+    <div class="enter-screen" id="enterScreen">
+    <div class="enter-content">
+    <h1 class="glitch">click anywhere</h1>
+    </div>
+    </div>
+    <nav class="navbar" id="navbar">
+    <div class="nav-container">
+    <a href="#home" class="nav-link active">home</a>
+    <a href="#about" class="nav-link">about</a>
+    <a href="#contact" class="nav-link">contact</a>
+    </div>
+    </nav>
+    <main class="main-content" id="mainContent">
+        <section id="home" class="page active">
+        <div class="hero">
+        <div class="pfp-wrapper">
+        <img src="assets/bog.webp" alt="pfp" class="pfp">
+        </div>
+        <h1 class="username">bog</h1>
+        <p class="tagline" id="clock"></p>
+        </div>
+        </section>
+        <section id="about" class="page">
+            <div class="content-wrapper">
+                <h2 class="page-title">about me.</h2>
+                <div class="about-content">
+                <p>hi im bog & aukak & im 14, i like to code and make unblocked game websites. my current project is truffled, i have made over 1K$ off it and im very proud of it.</p>
+                <p>i aswell like to decompile games to webgl and started from 98corbins & breadbb; so thank them for making me start; i have ported hollow knight, milkman karlson & RE:RUN to webgl.</p>
+                <p>i like to play geometry dash, hollow knight, ultrakill, arsenal, people playground, celeste & bloons td6. i like homestuck & object shows like: bfdi, bfdia, ii, tnm, tpot, i also watch starters.</p>
+                <p>i live in central daylight time so keep a reminder of it.</p>
+                </div>
+                <div class="skills">
+                <span class="skill-tag">frontend</span>
+                <span class="skill-tag">decompiling</span>
+                <span class="skill-tag">geometry dash</span>
+                <span class="skill-tag">math</span>
+                </div>
+        </div>
+        </section>
+        <section id="contact" class="page">
+            <div class="content-wrapper">
+            <h2 class="page-title">contact.</h2>
+            <div class="contact-grid">
+                    <a href="mailto:bog@truffled.lol" class="contact-card">
+                    <span class="contact-label">email</span>
+                    <span class="contact-value">bog@truffled.lol</span>
+                    </a>
+                    <a href="https://twitter.com/@boogibuck" target="_blank" class="contact-card">
+                    <span class="contact-label">twitter</span>
+                    <span class="contact-value">@boogibuck</span>
+                    </a>
+                    <a href="https://github.com/aukak" target="_blank" class="contact-card">
+                    <span class="contact-label">github</span>
+                    <span class="contact-value">aukak</span>
+                    </a>
+                    <a href="https://discord.gg/truffled" target="_blank" class="contact-card">
+                    <span class="contact-label">discord</span>
+                    <span class="contact-value">aukak.com</span>
+                    </a>
+            </div>
+            </div>
+        </section>
+    </main>
+        <audio id="bgAudio" loop>
+        <source src="assets/b.mp3" type="audio/mpeg">
+        </audio>
+        <div class="volume">
+        <input id="volume" type="range" min="0" max="1" step="0.01" value="0.5">
+    </div>
+</body>
+</html>
+<script src="bgp.js"></script>
+<script>
+function updateClock() {
+const now = new Date();
+const time = now.toLocaleTimeString('en-US', { 
+timeZone: 'America/Chicago',
+hour: '2-digit',
+minute: '2-digit',
+second: '2-digit',
+hour12: true
+});
+document.getElementById('clock').textContent = time;
+}
+updateClock();
+setInterval(updateClock, 1000);
+</script>
