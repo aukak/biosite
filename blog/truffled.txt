@@ -1,0 +1,13 @@
+## how i created truffled, an unblocked gaming site.
+
+this all started in november 2024 when i wanted to make game sites for me and my friends to play at school; i had previously had a site on google made with google sites (will not provide names to the site but based on it; it was my name for the site).
+since i wanted to have the option to add my own designs and wanted to make it just overall better for me and my friends.
+
+i first started coding *real* websites on june 29th, 2024 by making the first commit of that day for [golf-lesson](https://github.com/aukak/Golf-lesson).
+around this time i didnt know how to code so i had people help me and be taught by them so i was **really** bad at css & html.
+
+i decided to ditched the idea of gold lessons since i felt like it wasnt good enough and decided to start working on truffled on **november 9th, 2024.** the first version of truffled can be found [here](https://crackstuff.pages.dev) & source code [here](https://github.com/aukak/truffled-old)
+
+i made small steps over the past 2 years by redesigning everything, images, css and even the name of my site.
+
+i wanted to make this post to show how i progressed on making websites but mainly truffled, **if i can do it, you can too.**
