@@ -6,7 +6,7 @@ since i wanted to have the option to add my own designs and wanted to make it ju
 i first started coding *real* websites on june 29th, 2024 by making the first commit of that day for [golf-lesson](https://github.com/aukak/Golf-lesson).
 around this time i didnt know how to code so i had people help me and be taught by them so i was **really** bad at css & html.
 
-i decided to ditched the idea of gold lessons since i felt like it wasnt good enough and decided to start working on truffled on **november 9th, 2024.** the first version of truffled can be found [here](https://crackstuff.pages.dev) & source code [here](https://github.com/aukak/truffled-old)
+i decided to ditched the idea of golf lessons since i felt like it wasnt good enough and decided to start working on truffled on **november 9th, 2024.** the first version of truffled can be found [here](https://crackstuff.pages.dev) & source code [here](https://github.com/aukak/truffled-old)
 
 i made small steps over the past 2 years by redesigning everything, images, css and even the name of my site.
 
